@@ -11,7 +11,7 @@ def init():
     global model
     HF_AUTH_TOKEN = os.getenv("HF_AUTH_TOKEN")
     
-    repo_id = "OfficialUnstableDiffusion/UnstablePhotoRealv.5"
+    repo_id = "Linaqruf/anything-v3.0"
 
     scheduler = EulerDiscreteScheduler.from_pretrained(repo_id, subfolder="scheduler", prediction_type="v_prediction")
 
